@@ -50,3 +50,24 @@ button{
 .todoText{
   flex: 1;
 }
+@media (max-width:564px){
+  .container{
+      height: auto;
+  }
+}
+@media (max-width:512px){
+  .singleTodo{
+      width: auto;
+  }
+  .todoText{
+    flex: 0.5;
+  }
+}
+@media (max-width:446px){
+  .todoForm{
+      width: 300px;
+  }
+  .todoText{
+    flex: 0.5;
+  }
+}
